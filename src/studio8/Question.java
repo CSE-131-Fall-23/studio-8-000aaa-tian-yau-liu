@@ -36,5 +36,8 @@ public class Question {
 		q.displayPrompt();
 		System.out.println(q.checkAnswer("hi"));
 		System.out.println(q.checkAnswer("8"));
+		Question q2 = new Question("What day is it?", "Nov 16th", 4);
+		q.displayPrompt();
+		System.out.println(q2.checkAnswer("Nov 16th"));
 	}
 }
